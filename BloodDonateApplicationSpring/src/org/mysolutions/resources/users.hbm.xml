@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping>  
+<class name="org.mysolutions.persistent.model.Users" table="Users">  
+          <id name="userName">  
+          <generator class="assigned"></generator>  
+          </id>
+          <property name="passWord"></property>    
+          <property name="userContactNumber"></property> 
+          <property name="userAlternateContactNumber"></property>  
+          <property name="permanentAddress"></property>  
+          <property name="temparoryAddress"></property>     
+</class>  
+            
+</hibernate-mapping>
